@@ -205,7 +205,7 @@ class IncomingStreamingError(Exception):
 if __name__ == "__main__":
   # replace the ip with the ip of the machine you want to connect to
 
-  server = StreamReceiver("127.0.0.1", 9999)
+  server = StreamReceiver("10.0.0.66", 9999)
   server.start_server()
 
   while input("") != "STOP":
